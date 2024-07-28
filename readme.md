@@ -1,5 +1,8 @@
 # Sheet 1 Problems
 <br />
+[A. Say Hello With C++ problem](##A.-Say-Hello-With-C++)
+[A. Say Hello With C++ problem](#A.-Say-Hello-With-C++)
+<br />
 ## A. Say Hello With C++
 
 #### time limit per test: 1 second
