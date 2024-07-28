@@ -1,9 +1,12 @@
 # Sheet 1 Problems
 <br />
-[A. Say Hello With C++ problem](##A.-Say-Hello-With-C++)
-[A. Say Hello With C++ problem](#A.-Say-Hello-With-C++)
+
+ - [A. Say Hello With C++ problem](#A-Say-Hello-With-C++)
+ - [A. Say Hello With C++ problem](#a-say-hello-with-c++)
+ - [b . problem](#b-basic-data-types)
+ - [c .problem](#c-simple-calculator)
 <br />
-## A. Say Hello With C++
+# A. Say Hello With C++
 
 #### time limit per test: 1 second
 #### memory limit per test: 256 megabytes
@@ -42,7 +45,7 @@ int main()
 
 <br />
 
-## B. Basic Data Types
+# B. Basic Data Types
 
 #### time limit per test: 1 second
 #### memory limit per test: 256 megabytes
@@ -97,7 +100,7 @@ int main()
 
 <br />
 
-## C. Simple Calculator
+# C. Simple Calculator
 
 #### time limit per test: 1 second
 #### memory limit per test: 256 megabytes
