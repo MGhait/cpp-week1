@@ -44,6 +44,7 @@ Only one line containing a string S.
 ### Output
 Print "Hello, " without quotes, then print name.
 
+### Example:
 input
 ```
 programmer
@@ -89,8 +90,7 @@ Only one line containing the following space-separated values: int, long long, c
 ### Output
 Print each element on a new line in the same order it was received as input.
 
-
-
+### Examples
 input
 ```
 3 12345678912345 a 334.23 14049.30493
@@ -147,6 +147,7 @@ Print 3 lines that contain the following in the same order:
 2. "X * Y = multiplication result" without quotes.
 3. "X - Y = subtraction result" without quotes.
 
+### Examples
 input
 ```
 5 10
@@ -196,8 +197,7 @@ Only one line containing 4 separated numbers A, B, C and D ( - 10<sup>5<
 ### Output
 Print "Difference  =  " without quotes followed by the equation result.
 
-
-
+### Examples
 input
 ```
 1 2 3 4
@@ -264,8 +264,7 @@ Only one line containing the number R (1  ≤  R  ≤  100).
 ### Output
 Print the calculated **area**, with **9** digits after the decimal point.
 
-
-
+### Examples
 input
 ```
 2.00
@@ -276,8 +275,8 @@ output
 ```
 ### **note**
 * Use the data type double for this problem.
-** Use setprecision(9) to print 9 digits after decimal point.
-*** you can use function setprecision that are in #include<iomanip> library for Example :
+* Use setprecision(9) to print 9 digits after decimal point.
+* you can use function setprecision that are in #include<iomanip> library for Example :
 ```
 #include<iostream>
 #include<iomanip>
@@ -325,7 +324,7 @@ Only one line containing two numbers N, M (0 ≤ N, M ≤ 10 <sup>18
 ### Output
 Print the answer of the problem.
 
-
+### Examples
 input
 ```
 13 12
@@ -381,7 +380,8 @@ int main()
 
 Given a number **N**. Print the **summation** of the numbers that is between **1** and **N** **(inclusive)**.
 
-\[ \sum_{i=1}^{n} i \]
+$\sum_{i=1}^{n} i$
+
 
 
 ### Input
@@ -444,7 +444,7 @@ int main()
 
 Given a number **N**. Print the **summation** of the numbers that is between **1** and **N** **(inclusive)**.
 
-\[ \sum_{i=1}^{n} i \]
+
 
 
 ### Input
