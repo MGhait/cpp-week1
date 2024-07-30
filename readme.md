@@ -1,8 +1,8 @@
 # Sheet 1 Problems
 <br />
 
- - [A. Say Hello With C++ problem](#A-Say-Hello-With-C++)
- - [A. Say Hello With C++ problem](#a-say-hello-with-c++)
+
+ - [A. Say Hello With C++ problem](#a-say-hello-with-c)
  - [B. Basic Data Types](#b-basic-data-types)
  - [C. Simple Calculator](#c-simple-calculator)
  - [D. Difference](#d-difference)
@@ -124,6 +124,7 @@ int main()
 
 <br />
 
+
 # C. Simple Calculator
 
 #### time limit per test: 1 second
@@ -172,6 +173,73 @@ int main()
     cout << x << " + " << y << " = " << x + y << "\n";
     cout << x << " * " << y << " = " << (long long)x * y << "\n";
     cout << x << " - " << y << " = " << x - y << "\n";
+    return 0;
+}
+```
+
+<br />
+
+# D. Difference
+
+#### time limit per test: 1 second
+#### memory limit per test: 256 megabytes
+
+
+Given four numbers A, B, C and D. Print the result of the following equation :
+ X = ( A &times; ) - ( C &times; D ).
+
+
+### Input
+Only one line containing 4 separated numbers A, B, C and D ( - 10<sup>5</sup>  ≤  A, B, C, D  ≤  10<sup>5</sup>).
+
+
+### Output
+Print "Difference  =  " without quotes followed by the equation result.
+
+
+
+input
+```
+1 2 3 4
+```
+output
+```
+Difference = -10
+```
+
+input
+```
+2 3 4 5
+```
+output
+```
+Difference = -14
+```
+
+input
+```
+4 5 2 3
+```
+output
+```
+Difference = 14
+```
+
+### Soluation
+```
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    long long a;
+    long long b;
+    long long c;
+    long long d;
+    cin >> a >> b >> c >> d;
+    cout << "Difference = " << (a * b) - (c * d);
+ 
     return 0;
 }
 ```
@@ -240,3 +308,196 @@ int main()
     return 0;
 }
 ```
+
+# F. Digits Summation
+
+#### time limit per test: 0.25 second
+#### memory limit per test: 64 megabytes
+
+
+Given two numbers N and M. Print the summation of their last digits.
+
+
+### Input
+Only one line containing two numbers N, M (0 ≤ N, M ≤ 10 <sup>18</sup>).
+
+
+### Output
+Print the answer of the problem.
+
+
+input
+```
+13 12
+```
+output
+```
+5
+```
+### **Note**
+First Example: 
+**last digit** in the first number is **3** and **last digit** in the second number is **2**
+So the answoer is ( **3 + 2 = 5** )
+
+### Soluation
+```
+#include <iostream>
+ 
+using namespace std;
+ 
+int main ()
+{
+   long long x, y;
+   cin >> x >> y;
+   int n1 = x % 10;
+   int n2 = y % 10;
+ 
+   cout << n1 + n2;
+   return 0;
+}
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    long long a;
+    long long b;
+    long long c;
+    long long d;
+    cin >> a >> b >> c >> d;
+    cout << "Difference = " << (a * b) - (c * d);
+ 
+    return 0;
+}
+```
+
+<br />
+
+# G Summation from 1 to N
+
+#### time limit per test: 0.25 second
+#### memory limit per test: 256 megabytes
+
+Given a number **N**. Print the **summation** of the numbers that is between **1** and **N** **(inclusive)**.
+
+\[ \sum_{i=1}^{n} i \]
+
+
+### Input
+Only one line containing a number **N (1 ≤ N ≤ 10<sup>9</sup>)**
+
+
+### Output
+Print the **summation** of the numbers that are between **1** and **N (inclusive)**.
+
+
+### Examples
+input
+```
+3
+```
+output
+```
+6
+```
+
+input
+```
+10
+```
+output
+```
+55
+```
+
+
+### **Note**
+First Example: 
+the nubmers between 1 and 3 are **1,2,3**.
+So the answer is : **(1 + 2 + 3 = 6 )**
+Second Example:
+the nubmers between 1 and 10 are **1,2,3,4,5,6,7,8,9,10**.
+So the answer is : **(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55)**
+### Soluation
+```
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    long long n;
+    cin >> n;
+    cout << ( n * (n + 1))/2 << "\n";
+    return 0;
+}
+```
+
+<br />
+
+
+# G Summation from 1 to N
+
+#### time limit per test: 0.25 second
+#### memory limit per test: 256 megabytes
+
+Given a number **N**. Print the **summation** of the numbers that is between **1** and **N** **(inclusive)**.
+
+\[ \sum_{i=1}^{n} i \]
+
+
+### Input
+Only one line containing a number **N (1 ≤ N ≤ 10<sup>9</sup>)**
+
+
+### Output
+Print the **summation** of the numbers that are between **1** and **N (inclusive)**.
+
+
+### Examples
+input
+```
+3
+```
+output
+```
+6
+```
+
+input
+```
+10
+```
+output
+```
+55
+```
+
+
+### **Note**
+First Example: 
+the nubmers between 1 and 3 are **1,2,3**.
+So the answer is : **(1 + 2 + 3 = 6 )**
+Second Example:
+the nubmers between 1 and 10 are **1,2,3,4,5,6,7,8,9,10**.
+So the answer is : **(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55)**
+### Soluation
+```
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    long long n;
+    cin >> n;
+    cout << ( n * (n + 1))/2 << "\n";
+    return 0;
+}
+```
+
+<br />
+
+
+
